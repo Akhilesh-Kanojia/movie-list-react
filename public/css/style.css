@@ -1,0 +1,97 @@
+body{
+    background-color: #ddd;
+    background-image: url("../images/movies-bg.png");
+    background-size: cover;
+    box-sizing: border-box;
+    min-height: 100vh;
+    overflow: hidden;
+}
+#searchForm .input{
+    border: none;
+    outline: none;
+    background: none;
+  }
+  #searchForm .input:focus, .btn:focus{
+   outline: none;
+   color: none;
+   box-shadow: none;
+  }
+.notFound, .spinner{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+@media only screen and (max-width: 767px){
+  .notFound img{
+    width: 100%;
+  }
+}
+
+.movieWrapper{
+    max-height: 550px;
+    overflow-y: scroll;
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 768px){
+  .movieWrapper{
+    max-height: 900px;
+  }
+}
+
+/* width */
+.movieWrapper::-webkit-scrollbar, .movieInfo::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  /* Track */
+.movieWrapper::-webkit-scrollbar-track, .movieInfo::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 3px grey; 
+    border-radius: 5px;
+  }
+   
+  /* Handle */
+  .movieWrapper::-webkit-scrollbar-thumb, .movieInfo::-webkit-scrollbar-thumb {
+    background: #ddd; 
+    border-radius: 5px;
+  }
+  
+  /* Handle on hover */
+  .movieWrapper::-webkit-scrollbar-thumb:hover, .movieInfo::-webkit-scrollbar-thumb:hover {
+    background: #ddd; 
+  }
+  .movieInfo{
+    max-height: 550px;
+    overflow-y: scroll;
+  }
+  .movieInfo:before, .movieWrapper:before{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 56px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    z-index: 0;
+  }
+  h2{
+      color: #fff;
+      text-transform: uppercase;
+  }
+  .back{
+      position: relative;
+      margin-bottom: 5px;
+  }
+  .back-search{
+      color: #eeffdd;
+      transition: all 0.5s ease-in;
+  }
+  .back-search:hover{
+      text-decoration: none;
+      color: rgb(236, 65, 65);
+  }
+
+  .content-wraper{
+    margin-top: auto;
+  }
