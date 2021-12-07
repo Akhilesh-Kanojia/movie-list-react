@@ -29,8 +29,10 @@ body{
 }
 
 .movieWrapper{
-    max-height: 550px;
+    max-height: 100vh;
     overflow-y: scroll;
+    z-index: 99;
+    position: relative;
 }
 
 @media only screen and (max-width: 1024px) and (min-width: 768px){
