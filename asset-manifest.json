@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Website-using-react/static/css/main.07a58591.chunk.css",
+    "main.js": "/Website-using-react/static/js/main.4d9ac857.chunk.js",
+    "main.js.map": "/Website-using-react/static/js/main.4d9ac857.chunk.js.map",
+    "runtime-main.js": "/Website-using-react/static/js/runtime-main.9b2407c8.js",
+    "runtime-main.js.map": "/Website-using-react/static/js/runtime-main.9b2407c8.js.map",
+    "static/js/2.8cec0a94.chunk.js": "/Website-using-react/static/js/2.8cec0a94.chunk.js",
+    "static/js/2.8cec0a94.chunk.js.map": "/Website-using-react/static/js/2.8cec0a94.chunk.js.map",
+    "index.html": "/Website-using-react/index.html",
+    "static/css/main.07a58591.chunk.css.map": "/Website-using-react/static/css/main.07a58591.chunk.css.map",
+    "static/js/2.8cec0a94.chunk.js.LICENSE.txt": "/Website-using-react/static/js/2.8cec0a94.chunk.js.LICENSE.txt",
+    "static/media/404.d1a6bb86.png": "/Website-using-react/static/media/404.d1a6bb86.png",
+    "static/media/logo.103b5fa1.svg": "/Website-using-react/static/media/logo.103b5fa1.svg",
+    "static/media/spinner.46f8b838.gif": "/Website-using-react/static/media/spinner.46f8b838.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9b2407c8.js",
+    "static/js/2.8cec0a94.chunk.js",
+    "static/css/main.07a58591.chunk.css",
+    "static/js/main.4d9ac857.chunk.js"
+  ]
+}
